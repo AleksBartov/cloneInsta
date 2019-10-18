@@ -23,9 +23,9 @@ export default class App extends Component {
 
 
 const DashboardTabNavigator = createBottomTabNavigator({
+  Settings,
   FeedStack,
   Profile,
-  Settings
 },{
   navigationOptions: ({navigation}) => {
     const { routeName } = navigation.state.routes[navigation.state.index];
